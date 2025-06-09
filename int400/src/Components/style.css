@@ -1,0 +1,172 @@
+/* .loginPage {
+    /* background: url('../assets/loginBg.mp4');
+    background: linear-gradient(rgba(5, 6, 7, 0.1), rgba(4, 4, 4, 0.1)), url("../assets/loginBg.mp4");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 120%; 
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.bg-vid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+}
+
+.loginForm {
+  background-color: #003a63;
+  color: white;
+  position: relative;
+  z-index: 1; /* Ensure the form stays above the video 
+}
+
+ul li :hover {
+  background-color: gray;
+}
+
+.employee_image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.emp_det_image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+.backgroundImageDiv {
+  /* background-image: url("../assets/loginBg.mp4"); 
+  background-size: cover;
+  background-position: center;
+}
+
+.Color {
+  color: darkorange;
+  text-decoration: none;
+}
+
+.BG {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.B {
+  background-color: white;
+}
+
+.link {
+  color: black;
+  text-decoration: none;
+}
+.link:hover {
+  color: darkorange;
+}
+
+
+/* .loginBg {
+  position: absolute;
+
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1; /* Ensure the video stays behind the content 
+} */ 
+
+
+.loginForm {
+  background-color: gray;
+  color: white;
+  position: relative;
+  z-index: 1; /* Ensure the form stays above the video */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.loginForm:hover {
+  background-color: burlywood; /* Darker shade on hover */
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.4); /* Enhance shadow on hover */
+}
+
+ul li:hover {
+  background-color: #2e2e2e; /* Slightly lighter gray */
+}
+
+.textField {
+  background-color: #ffffff;
+  border-radius: 4px;
+}
+
+.textField input {
+  color: #333;
+}
+
+.textField label {
+  color: #777;
+}
+
+.textField input:focus + label,
+.textField input:not(:placeholder-shown) + label {
+  color: #005288;
+}
+
+.textField input:hover {
+  border-color: #005288;
+}
+
+.textField input:focus {
+  border-color: #005288;
+  box-shadow: 0 0 5px #005288;
+}
+
+.btn-success {
+  background-color: #28a745;
+  border-color: #28a745;
+  color: white;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #218838;
+  transform: translateY(-2px); /* Slight lift effect */
+}
+
+.bg-vid {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(0.5); /* Decrease brightness */
+  z-index: -1;
+}
+
+.link {
+  color: #ffffff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.link:hover {
+  color: darkorange;
+}
+
+.checkbox .me-2 {
+  accent-color: #28a745; /* Change checkbox color */
+}
+
+.checkbox .me-2:checked {
+  background-color: #218838;
+}
+
