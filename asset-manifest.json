@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.3ea51c13.css",
+    "main.js": "/static/js/main.a2f4c873.js",
+    "static/media/BgVideo1.mp4": "/static/media/BgVideo1.40ff6234996bccdd03f9.mp4",
+    "static/media/BgV.mp4": "/static/media/BgV.10a9ba792e6141d15f0b.mp4",
+    "static/media/dash.mp4": "/static/media/dash.882fe4be5574ae120dc3.mp4",
+    "static/media/Eubix3.png": "/static/media/Eubix3.16a1edbc40636ec86fc7.png",
+    "static/media/carspeed.jpeg": "/static/media/carspeed.759293de9a7e29216d52.jpeg",
+    "static/media/Bg.jpg": "/static/media/Bg.3ea6ffd51df6942e8cae.jpg",
+    "index.html": "/index.html",
+    "main.3ea51c13.css.map": "/static/css/main.3ea51c13.css.map",
+    "main.a2f4c873.js.map": "/static/js/main.a2f4c873.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3ea51c13.css",
+    "static/js/main.a2f4c873.js"
+  ]
+}
