@@ -23,16 +23,14 @@ jobs:
 
       - name: Install dependencies
         working-directory: ./int400
-        run: CI=false npm run build
+        run: npm install
 
       - name: Build React app
         working-directory: ./int400
         run: CI=false npm run build
-
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./int400/build
-
