@@ -23,11 +23,11 @@ jobs:
 
       - name: Install dependencies
         working-directory: ./int400
-        run: npm install
+        run: CI=false npm run build
 
       - name: Build React app
         working-directory: ./int400
-        run: run: CI=false npm run build
+        run: CI=false npm run build
 
 
       - name: Deploy to GitHub Pages
